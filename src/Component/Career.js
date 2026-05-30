@@ -7,6 +7,7 @@ export default function Career() {
   return (
     <div id="career">
       <h1>My Career</h1>
+      <img src="/image/roadmap.png" alt="career" />
       <buttonarea>
       {careers.map((c, i) => (
         <button key={c.tab} onClick={contentChange} value={i}>

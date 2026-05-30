@@ -7,6 +7,7 @@ export default function Career() {
   return (
     <div id="pp">
       <h1>Production Process</h1>
+      <img src="/image/port.png" alt="portfolio" />
       <buttonarea>
       {pps.map((c, i) => (
         <button key={c.tab} onClick={contentChange} value={i}>

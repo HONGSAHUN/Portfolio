@@ -2,8 +2,8 @@ import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 
 import Index from "./Component/Index";
 import Introduction from "./Component/Introduction";
-import Project from "./Component/Project";
-import Contest from "./Component/Contest";
+import Skill from "./Component/Skill";
+import Story from "./Component/Story";
 import Career from "./Component/Career";
 import Gallery from './Component/Gallery';
 import Activity from "./Component/Activity";
@@ -19,16 +19,16 @@ export default function App() {
         <Link to="/">홈</Link>
         <span className="nav-divider">|</span>
         <Link to="/introduction">나의 소개</Link>
-        <Link to="/project">프로젝트</Link>
-        <Link to="/contest">공모전</Link>
-        <Link to="/career">나의 경력</Link>
+        <Link to="/skill">기술 스택</Link>
+        <Link to="/career">타임라인</Link>
+        <Link to="/story">나의 스토리</Link>
         <Link to="/activity">나의 활동</Link>
         <span className="nav-divider">|</span>
         <Link to="/pp">제작 과정</Link>
       </nav>
       
       <header>
-          홍사훈의 포트폴리오 (초안)
+          PORTFOLIO
       </header>
 
       <section className="gallery-wrapper">
@@ -41,9 +41,9 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/introduction" element={<Introduction />} />
-            <Route path="/project" element={<Project />} />
-            <Route path="/contest" element={<Contest />} />
+            <Route path="/skill" element={<Skill />} />
             <Route path="/career" element={<Career />} />
+            <Route path="/story" element={<Story />} />
             <Route path="/activity" element={<Activity />} />
             <Route path="/pp" element={<PP />} />
           </Routes>
@@ -62,7 +62,7 @@ export default function App() {
           <br />
           The other images are sourced from my own photography.
           <br /><br />
-          Copyright 2026. 지은이 all rights reserved.
+          Copyright 2026. 홍사훈 all rights reserved.
         </i>
       </footer>
     </BrowserRouter>

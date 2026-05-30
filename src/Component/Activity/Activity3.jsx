@@ -1,4 +1,4 @@
-export default function Activity3() { return <p>전국대학생연합밴드동아리 Woori의 부원으로 활동하고 있습니다.
+export default function Activity3() { return <p>전국대학생연합밴드동아리 Woori의 임원진으로 활동하고 있습니다.
     Woori는 다양한 전공과 학교의 학생들이 모여 음악을 통해 교류하는 동아리로, 저는 베이스 기타 연주자로서 밴드 활동에 참여하고 있습니다.
     매주 정기 연습과 공연 준비를 통해 음악적 실력을 향상시키고, 동아리 내 다양한 행사와 공연에 참여하며 협동심과 팀워크를 기르고 있습니다.
     <br/><br/>

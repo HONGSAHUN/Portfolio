@@ -16,13 +16,19 @@ export default function Introduction() {
       </buttonarea>
       <div style={{ marginTop: "1em" }}>{intros[tabIndex].content}</div>
       {intros[tabIndex].tab === "프로필" && (
-        <div className="profile-image-wrapper">
-          <img src="/image/gachon.jpeg" alt="프로필" />
+        <div>
+          <img src="/image/hongsahun.jpg" alt="프로필" />
         </div>
         )}
       {intros[tabIndex].tab === "목표" && (
         <div className="profile-image-wrapper">
           <img src="/image/ai.jpeg" alt="목표" />
+        </div>
+        )}
+      {intros[tabIndex].tab === "자격증" && (
+        <div>
+          <img src="/image/toeic.png" alt="자격증" />
+          <img src="/image/wp1.jpg" alt="자격증" />
         </div>
         )}
     </div>

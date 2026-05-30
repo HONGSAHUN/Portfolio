@@ -5,20 +5,20 @@ function Guestbook() {
   const [memos, setMemos] = useState([]);
   const [input, setInput] = useState("");
 
-  // ✅ CREATE
+  // CREATE
   const addMemo = () => {
     setMemos([...memos, { id: Date.now(), text: input }]);
     setInput("");
   };
 
-  // ✅ UPDATE
+  // UPDATE
   const updateMemo = (id, newText) => {
    // 목록에 있는 id와 매개변수 id 가 같으면 수정
     setMemos(memos.map((m) => (m.id === id ? 
                             { ...m, text: newText } : m)));
   };
 
-  // ✅ DELETE
+  // DELETE
  // 목록에 있는 id와 매개변수 id 가 다르면 필터링
   const deleteMemo = (id) => {
     setMemos(memos.filter((m) => m.id !== id));
