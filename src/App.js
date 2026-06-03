@@ -6,6 +6,7 @@ import Skill from "./Component/Skill";
 import Story from "./Component/Story";
 import Career from "./Component/Career";
 import Gallery from './Component/Gallery';
+import Future from "./Component/Future";
 import Activity from "./Component/Activity";
 import Guestbook from "./Component/Guestbook";
 import PP from "./Component/PP";
@@ -22,6 +23,7 @@ export default function App() {
         <Link to="/skill">기술 스택</Link>
         <Link to="/career">타임라인</Link>
         <Link to="/story">나의 스토리</Link>
+        <Link to="/future">나의 미래</Link>
         <Link to="/activity">나의 활동</Link>
         <span className="nav-divider">|</span>
         <Link to="/pp">제작 과정</Link>
@@ -44,6 +46,7 @@ export default function App() {
             <Route path="/skill" element={<Skill />} />
             <Route path="/career" element={<Career />} />
             <Route path="/story" element={<Story />} />
+            <Route path="/future" element={<Future />} />
             <Route path="/activity" element={<Activity />} />
             <Route path="/pp" element={<PP />} />
           </Routes>

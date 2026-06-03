@@ -45,15 +45,15 @@ const pps = [
     또한 메뉴바와 버튼 등은 980px로 원형에 가깝게 모서리를 처리하여 클릭하기 쉽게 디자인하였습니다.
     마지막으로 최대한 공부해가며 블러처리, 메뉴바 호버링 효과, 사진의 순차적 등장 효과 등도 적용해보았습니다.
 
-    <img src="/image/mysky.png" alt="sky" />
+    <img src="/image/mysky.png" alt="sky" style={{ width: '800px', display: 'block', margin: '20px auto' }} />
     추가로, 홈페이지의 첫 페이지는 제가 찍은 하늘 사진을 배경으로 하여, 조금 더 감성적이고 개인적인 느낌을 주도록 구성해보았습니다.<br/><br/>
     파란색 하늘부터 시작하여 노을이 지는 하늘로 이어지는 4장의 사진을 순차적으로 배치하여 시간의 흐름에 따라 변화하는 하늘의 모습을 보여주고자 했습니다. 
     또한, 각 사진에는 순차적으로 블러 효과가 적용되어, 사진이 점점 선명해지는 느낌을 주도록 디자인하였습니다.
     이를 통해 방문자들이 첫 페이지에서부터 시각적으로 매력적인 경험을 할 수 있도록 하고, 디자인적인 요소를 통해 저의 감성과 개성을 표현하고자 했습니다.
   </p> },
   { tab: "웹페이지 배포", content: <p>
-    <img src="/image/vs1.png" alt="vs" />
-    <img src="/image/vs2.png" alt="vs" />
+    <img src="/image/vs1.png" alt="vs" style={{ width: '800px', display: 'block', margin: '20px auto' }}/>
+    <img src="/image/vs2.png" alt="vs" style={{ width: '800px', display: 'block', margin: '20px auto' }} />
 
     이렇게 VS Code에서 React를 이용하여 저만의 웹페이지를 제작하였습니다. 그러나 처음 제작한 웹페이지는 로컬 개발 환경에서만 실행되는 상태였기 때문에, 
     제 컴퓨터가 아닌 다른 기기나 외부 환경에서는 바로 확인할 수 없었습니다. 따라서 제가 만든 포트폴리오 홈페이지를 실제 웹상에서 누구나 접속할 수 있도록 배포하는 과정이 추가로 필요했습니다.<br/><br/>
@@ -61,8 +61,8 @@ const pps = [
     물론 제가 작성한 프로젝트 파일을 압축하여 메일로 전달하는 방법도 생각해볼 수 있었습니다. 하지만 React 프로젝트는 관련 라이브러리와 여러 설정 파일을 포함하고 있어 전체 용량이 커질 수 있고, 
     받는 사람도 직접 실행 환경을 준비해야 한다는 불편함이 있습니다. 따라서 단순히 파일을 전달하는 방식보다는, 웹사이트 주소를 통해 바로 접속할 수 있도록 만드는 것이 더 적절하다고 판단했습니다.
 
-    <img src="/image/git1.png" alt="git" />
-    <img src="/image/ver1.png" alt="ver" />
+    <img src="/image/git1.png" alt="git" style={{ width: '800px', display: 'block', margin: '20px auto' }}/>
+    <img src="/image/ver1.png" alt="ver" style={{ width: '800px', display: 'block', margin: '20px auto' }} />
 
      이를 위해 먼저 GitHub에 제가 제작한 포트폴리오 홈페이지의 소스 코드를 업로드하였습니다. <br/><br/>
 
